@@ -1,0 +1,13 @@
+asyncio==3.4.3  # Required for asyncio.run in main.py
+certifi==2021.5.30  # Required by various packages
+langchain==0.1.0  # Used in main.py
+openai==0.27.0  # Used in main.py
+Pillow==8.2.0  # Used in main.py (for image handling)
+PyPDF2==1.26.0  # Used in pdf_abstractor.py
+PyYAML==6.0  # Required for PyPDF2
+requests==2.26.0  # Required by various packages
+speechrecognition==3.8.1  # Used in main.py (for speech recognition)
+streamlit==1.8.0  # Used in main.py (for the Streamlit app)
+translate==3.6.1  # Used in main.py (for translation)
+faiss-cpu==1.7.4
+tiktoken==0.4.0
